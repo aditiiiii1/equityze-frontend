@@ -1,0 +1,216 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Wider modal box */
+.auth-modal-content {
+  background: white;
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 520px; /* Same width for both */
+  min-height: 520px; /* Add fixed height to maintain same size */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+
+}
+
+
+/* Toggle Styles */
+.auth-toggle {
+  display: flex;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #e1e5e9;
+}
+
+.toggle-btn {
+  flex: 1;
+  padding: 15px;
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #666;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.toggle-btn.active {
+  color: #5e96a4;
+  border-bottom-color: #5e96a4;
+}
+
+.toggle-btn:hover {
+  color: #5e96a4;
+  background-color: #f8f9fa;
+}
+
+/* Header */
+.auth-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.auth-header h2 {
+  color: #333;
+  margin-bottom: 8px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.auth-header p {
+  color: #666;
+  font-size: 16px;
+  margin: 0;
+}
+
+/* Form Styles */
+.auth-form {
+  margin-bottom: 20px;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  color: #333;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid #e1e5e9;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #5e96a4;
+  box-shadow: 0 0 0 3px rgba(56, 126, 209, 0.1);
+}
+
+.form-group input::placeholder {
+  color: #999;
+}
+
+/* Button */
+.auth-button {
+  width: 100%;
+  padding: 14px;
+  background: #5e96a4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 10px;
+}
+
+.auth-button:hover:not(:disabled) {
+  background: #5e96a4;
+}
+
+.auth-button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+/* Switch between login/signup */
+.auth-switch {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #e1e5e9;
+}
+
+.auth-switch p {
+  color: #666;
+  margin: 0;
+}
+
+.switch-button {
+  background: none;
+  border: none;
+  color: #5e96a4;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.switch-button:hover {
+  color: #5e96a4;
+}
+
+/* Messages */
+.error-message {
+  background: #fee;
+  color: #c33;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  border: 1px solid #fcc;
+  text-align: center;
+  font-size: 14px;
+}
+
+.success-message {
+  background: #efe;
+  color: #3c3;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  border: 1px solid #cfc;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Forgot Password */
+.forgot-password {
+  text-align: right;
+  margin: -10px 0 20px 0;
+  font-size: 14px;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .auth-modal-content {
+    padding: 30px 20px;
+  }
+  
+  .form-row {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .login-padded {
+    padding-bottom: 50px; /* Adjust this value as needed */
+  }
+}
