@@ -3,9 +3,9 @@ import React from 'react';
 function Stats() {
     return (  
        <div className='container p-3'>
-        <div className='row p-5'>
-            <div className='col-6 p-5'>
-                <h1 className='fs-2 mb-5 mt-5'>Trust with confidence</h1>
+        <div className='row p-3 p-md-5'>
+            <div className='col-12 col-md-6 p-3 p-md-5'>
+                <h1 className='fs-2 mb-3 mb-md-5 mt-3 mt-md-5'>Trust with confidence</h1>
 
                 <h2 className='fs-4'>Customer-first always</h2>
                 <p className='text-muted'>That's why 1.6+ crore customers trust Equityze with ~ ₹6 lakh crores of equity investments, making us India's largest broker</p>
@@ -21,13 +21,13 @@ function Stats() {
 
             </div>
 
-            <div className='col-6 p-5'>
+            <div className='col-12 col-md-6 p-3 p-md-5'>
                 <img src='media/images/ecosystem.png'
                 alt='ecosystem'
-                 style={{width:"115%"}}/>
+                 className="img-fluid w-100"/>
 
-                <div className='d-flex justify-content-end gap-4 mt-3'>
-                    <a href='#explore-products'  className='mx-5' style={{textDecoration:"none"}}>Explore our Products <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                <div className='d-flex flex-column flex-md-row justify-content-md-end gap-3 gap-md-4 mt-3'>
+                    <a href='#explore-products' style={{textDecoration:"none"}}>Explore our Products <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                     <a href='#kite-demo'style={{textDecoration:"none"}}>Try Kite demo <i class="fa fa-long-arrow-right" 
                     aria-hidden="true"></i></a>
                 </div>
