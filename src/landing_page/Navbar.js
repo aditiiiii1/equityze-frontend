@@ -6,7 +6,9 @@ function Navbar() {
     <nav class="navbar navbar-expand-lg border-bottom bg-body-tertiary">
   <div class="container">
     <Link class="navbar-brand" to="/">
-    <img src="media/images/equityzelogo.png" className="navbar-logo " />
+    <img src="media/images/equityzelogo.png"
+    alt="Equityze Logo"
+     className="navbar-logo " />
     </Link>
     <button
       class="navbar-toggler"

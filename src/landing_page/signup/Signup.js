@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useAuth } from '../AuthContext';
 import '../Auth.css';
-import { Link } from 'react-router-dom';
+
 
 const AuthPage = () => {
   const [isLogin, setIsLogin] = useState(false);

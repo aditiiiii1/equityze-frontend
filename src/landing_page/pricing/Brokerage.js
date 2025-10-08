@@ -64,7 +64,7 @@ function Brokerage() {
       
             <p className="text-muted small mt-3">
               * Lower AMC is applicable only if the account qualifies as a Basic Services Demat Account (BSDA). 
-              BSDA account holders cannot hold more than one demat account. To learn more about BSDA, <a href="#">click here</a>.
+              BSDA account holders cannot hold more than one demat account. To learn more about BSDA, <a href="#click-here">click here</a>.
             </p>
       
           </div>

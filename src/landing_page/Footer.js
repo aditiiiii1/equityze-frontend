@@ -9,7 +9,10 @@ function Footer() {
           {/* Logo and Copyright Section */}
           <div className="col text-muted footer-logo-section">
             <Link to="/">
-              <img src="media/images/equityzelogo.png" className="footer-logo" style={{ width: "60%" }} />
+              <img src="media/images/equityzelogo.png"
+               className="footer-logo"
+               alt="Equityze Logo"
+              style={{ width: "60%" }} />
             </Link>
             <p className="copyright-text">
               © 2010 - 2025, Equityze Broking Ltd.<br />

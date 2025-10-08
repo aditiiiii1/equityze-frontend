@@ -67,7 +67,7 @@ function ProductsPage() {
       <div className="container text-center p-5 mt-5"> 
         <h4 className="mb-4">
           Want to know more about our technology stack? Check out the {" "}
-          <a href="#" style={{textDecoration: "none"}}>Equityze.tech</a> blog.
+          <a href="#equityze-tech" style={{textDecoration: "none"}}>Equityze.tech</a> blog.
         </h4>
       </div>
 

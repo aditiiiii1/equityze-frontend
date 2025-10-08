@@ -11,7 +11,9 @@ function Team() {
       <div className="row p-3 text-muted" style={{lineHeight: "1.8", fontSize: "1.2em"}}>
         <div className="col-6 p-3 text-center">
          
-        <img src="media/images/aditiphoto.png" style={{
+        <img src="media/images/aditiphoto.png"
+        alt="Founder's img"
+         style={{
     borderRadius: "50%", 
     width: "50%", 
     height: "72%", 
@@ -28,7 +30,7 @@ function Team() {
 <p>The work encompasses comprehensive expertise in frontend development, API integration, and the creation of an efficient and visually compelling user interface.</p>
 
 <p>Away from the keyboard, a passion for swimming provides her a clear mind and fresh perspective.</p>
-<p>Connect on <a href='' style={{textDecoration: "none"}}>Homepage</a> / <a href='' style={{textDecoration: "none"}}>TradingQnA</a> / <a href='' style={{textDecoration: "none"}}>Twitter</a></p>
+<p>Connect on <a href='#homepageplaceholder' style={{textDecoration: "none"}}>Homepage</a> / <a href='#tradingqaplaceholder' style={{textDecoration: "none"}}>TradingQnA</a> / <a href='#twitterplaceholder' style={{textDecoration: "none"}}>Twitter</a></p>
 
         </div>
       </div>

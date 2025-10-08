@@ -14,7 +14,9 @@ function LeftSection({
       <div className="row"hp >
 
         <div className="col-6">
-          <img src={imageURL} style={{ marginLeft: "30px"}}/>
+          <img src={imageURL}
+          alt={"Equityze trading platform dashboard"}
+           style={{ marginLeft: "30px"}}/>
         </div>
 
         <div className="col-6 p-5 mt-5">
@@ -28,11 +30,13 @@ function LeftSection({
           </div>
           <div className="mt-3">
             <a href={googlePlay}>
-              <img src="media/images/googlePlayBadge.svg" />
+              <img src="media/images/googlePlayBadge.svg"
+              alt="google play" />
             </a>
             <a href={appStore}>
               <img
                 src="media/images/appstoreBadge.svg"
+                alt="app store"
                 style={{ marginLeft: "50px" }}
               />
             </a>
