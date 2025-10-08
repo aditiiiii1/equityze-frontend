@@ -12,7 +12,7 @@ function Footer() {
               <img src="media/images/equityzelogo.png"
                className="footer-logo"
                alt="Equityze Logo"
-              style={{ width: "60%" }} />
+              style={{ width: "40%" }} />
             </Link>
             <p className="copyright-text">
               © 2010 - 2025, Equityze Broking Ltd.<br />
