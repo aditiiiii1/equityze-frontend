@@ -30,7 +30,7 @@ export const AuthProvider = ({ children }) => {
   // Login function
   const login = async (email, password) => {
     try {
-      const response = await fetch('http://localhost:3004/api/login', {
+      const response = await fetch('http://localhost:3004/api/login', { 
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -57,7 +57,7 @@ export const AuthProvider = ({ children }) => {
   // Signup function
   const signup = async (userData) => {
     try {
-      const response = await fetch('http://localhost:3004/api/signup', {
+      const response = await fetch('http://localhost:3004/api/signup', { 
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

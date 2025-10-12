@@ -16,7 +16,7 @@ const AuthPage = () => {
   const [error, setError] = useState('');
   const [success, setSuccess] = useState('');
   
-  const { login, signup } = useAuth();
+  const { login, signup } = useAuth(); 
 
   const handleChange = (e) => {
     setFormData({
@@ -220,5 +220,4 @@ const AuthPage = () => {
     </div>
   );
 };
-
 export default AuthPage;
